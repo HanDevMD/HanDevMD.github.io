@@ -1,0 +1,46 @@
+
+/*--- ~| Font |~ ---*/
+
+h1 {
+	color: #532c16;
+	text-shadow: 1px 1px #fff;
+    line-height: 0px;
+    font-size:40px;
+	font-family:HARRINGT;
+}
+
+h2 {
+	color: #49260a;
+	font-size: 24px;
+	font-family:HARRINGT;
+	text-shadow: 2px 1px #fff;
+}
+
+h3 {
+	color: #fff;
+	text-shadow: 1px 1px #49260a;
+    line-height: 0px;
+    font-size:50px;
+	font-family:HARRINGT;
+}
+
+h4 {
+	color: #795744;
+    font-size:12px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h5 {
+	color: #795744;
+	text-align: left;
+	padding: 0 0 10px 10px;
+    font-size:12px;
+	font-family: "HARRINGT;
+}
+
+@font-face {
+    font-family:'HARRINGT';
+    src:  url('fonts/HARRINGT.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

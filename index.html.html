@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title> Hanouf Aloufi </title>
+	<link rel="shortcut icon" href="WEB/Han.png"/>
+    <meta charset = "utf-8" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F8J84VQ5E6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F8J84VQ5E6');
+</script>
+
+    <!--Load the AJAX API for google Charts-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Databse', 3],
+          ['English', 3],
+          ['Programming', 2],
+          ['Games', 1],
+        ]);
+
+        // Set chart options
+        var options = {'title':'Skills',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
+  </head> 
+
+<body>
+  
+  <!--LINK-->
+  <link rel = "stylesheet"  type = "text/css" href = "css/Header.css" ></link>
+  <link rel = "stylesheet"  type = "text/css" href = "css/Fonts.css" ></link>
+  <!--LINK-->
+ <!-- | Header | --> 
+  <body class="W">
+  <div class="div1" style="background: url('WEB/Cover.jpg') repeat-x top;"><br /><br /><br /><br /><br /><br /><br /><br /><h3 id="About">Welcome!</h3><h4 style="width: 250px; background:#fff; text-align: left; padding: 0 0 0 20px;">Hanouf Aloufi &raquo Student in Umm Al-Qura </h4></div>
+<center>
+  <div style="position:fixed; top:0; height:85px;" class="div2"><h2>
+<table >
+  <tr>
+	<td style="padding: 0 0 0 30px;"><a href="#Home">Home</a></td>
+	<td style="padding: 0 0 0 30px;"><a href="#About">About Me!</a></td>
+	<td><img src="WEB/Han.png" style="margin-bottom: -40px; margin-left: 30px; width: 70px; height: 70px;"></td>
+	<td style="padding: 0 0 0 30px;"><a href="#project">My Ptojects</a> </td>
+	<td style="padding: 0 0 0 30px;"><a href="#Contact">Contact Me!</a></td>
+	</tr>
+</table></h2></div>
+</center>
+ <!-- | End Of Header | --> 
+ <div id="marquee-cont">
+  <table width="100%" border="0" cellspacing="10" cellpadding="5" style="background:#f5eaec;">
+    <tr>
+      <td width="50px" style="background:#f5eaec;">
+        <button id="ticker-title">News</button>
+      </td>
+      <td id="marquee">
+        <marquee onmouseover="this.stop();" onmouseout="this.start();" id='scroll'>
+        Happy Ramdhan for you all
+        </marquee>
+    </tr>
+  </table>
+</div>
+ <!-- | Content | -->
+<center>
+<table>
+  <tr>
+	<td colspan="3"><h2>About me!</h2><h4>Hello! Welcome to my website! 
+    My name is Hanouf Aloufi, ,<br /> I live in Makkah in Saudi Arabia 
+    I'm a computer science student in Umm Al-qura university 
+    <br /> I finished the barch degree in 2020 
+    and now continue my study in the master degree
+    <br />I love website developing, Security and social analytic 
+    topics in Computer Science 
+    <br /> My favorite hobby is playing video games, fixing broken stuff
+     and watching cooking channel </h4>
+  <tr>
+	<td><img src="WEB/1.jpg" style="margin-right: 50px;"width="300" height="400" >  
+	<td><h2>Educational Background</h2><h4>
+    I graduated from Umm Al-Qura university in 2020 from the computer 
+    <br/> science department taking the barch degree and having an Excellent 
+    <br/> second honor grade with a GPA 3.7 out of 4.00.  <br/> Now I'm studying for the master
+    degree and this is my first year <br/> and second semester
+  <br /><h2>Experience </h2> 
+  <h4>I took a course in game developing using Unity enginge that is used for <br /> developing small games for
+     indie games developers and also in <br /> cybersecurity.<br /><img src="WEB/F.jpg" style="margin-top: 30px;" width="300" height="200"></td>
+  </tr>
+</table>
+</center>
+<h2  align="center"> <br/>My Skills!
+<div id="chart_div" align="center"></div>
+<img src="WEB/2.jpg" id="project" style="margin-top: 50px; margin-top: 50px;"> </h2>
+ <h2 align="center" > <br/>My Projects!
+ <br/> <img src="WEB/D.jpg" width="200" height="250"><br/> </h2>
+ <h4 align="center">1- Dyslexia Warriors <br /> 
+  his was by me and my team graduation project, <br/> it was a game that help the dyslexic 
+  children in finding the <br/> best way for them to learn what is the best method for 
+  them<br/>  when studying through a game designed by Unity.<br /> 
+  <br/> <img src="WEB/FR.jpg" width="200" height="250"><br/><br/>
+  2- Face recognition system
+  <br /> Last semester I made a research paper to recognize <br />students wearing niqab in
+  Umm Al-Qura university <br /> to check every student automatically.<br /> 
+ .</h4><br /><br /><br /><br><br /></td>
+
+ <!--Div that will hold the pie chart-->
+ 
+
+
+<!-- | End of Content | --> 
+
+  <div class="div3">
+<table>
+  <tr>
+   <td style="text-align:left; padding: 0 0 0 70px;">
+   <a href="https://www.facebook.com/olilio.hanoo.olilio/"><img src="WEB/Facebook.png"></a>
+   <a href="https://www.instagram.com/handev_v/"><img src="WEB/Tumblr.png"></a>
+   <a href="https://twitter.com/HanMDV"><img src="WEB/Twitter.png"></a>
+   <td style="text-align:left; padding: 0 0 0 350px;"><h4>&copy 2022 Hanouf website ALL RIGHTS RESERVED</td></h4>
+  </tr>  
+</table>
+  </div>
+  
+  <!--SCRIPT-->
+ 
+
+</script>>
+  <!--SCRIPT-->
+  
+  </body>
+</html>

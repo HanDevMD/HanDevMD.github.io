@@ -1,0 +1,30 @@
+
+/*--- ~|  Image Menu |~ ---*/
+
+.container:hover {
+    position: relative;
+}
+
+.container:hover .image {
+    filter: grayscale(90%);
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.middle {
+    color: #49260a;
+    font-size: 30px;
+    border-radius: 50%;
+    text-shadow: 2px 1px #fff;
+    background-color: #fff;
+    padding: 16px 32px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
