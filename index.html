@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<title>Hanouf CV</title>
+<script src="js/jquery-3.6.0.min.js"> </script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <img id="menu2" src="Web/menu.png" width="25" height="25" style="float:right;margin-right:25px;margin-bottom: 15px;">
+    <div id="nav" class="w3-container">
+    <img src="Web/Han.png" width="100" height="100" style="vertical-align:middle;margin:0px 50"><br><br>
+    <h4><b>Hanouf Aloufi</b></h4>
+    <p class="w3-text-grey">Student in Umm Al-Qura University</p>
+  </div>
+  <div id="nav1" class="w3-bar-block">
+    <a href="#Home" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Home Page</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>About Me</a> 
+    <a href="#project" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>My Projects</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contact Me!</a>
+  </div>
+  <div id="nav2" class="w3-panel w3-large">
+    <a href="https://www.facebook.com/olilio.hanoo.olilio/"><i class="fa fa-facebook-official w3-hover-opacity" ></i> </a>
+    <a href="https://www.instagram.com/handev_v/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/HanMDV"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <!-- Page Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center " style="background:#9ab3c2;" id="Home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Hanouf Aloufi.</h1>
+      <p>A Master student in Umm Al-Qura University.</p>
+      <img src="WEB\2.jpg" alt="Flower" class="w3-image" width="564" height="192">
+    </header>
+     
+    <div id="marquee-cont">
+        <table width="100%" border="0" cellspacing="10" cellpadding="5" style="background:#9ab3c2;">
+          <tr>
+            <td width="50px" style="background:#9ab3c2;">
+              <button id="ticker-title">News</button>
+            </td>
+            <td id="marquee">
+              <marquee onmouseover="this.stop();" onmouseout="this.start();" id='scroll'>
+              Happy Ramdhan for you all
+              </marquee>
+          </tr>
+        </table>
+      </div>
+
+    <!-- About Me-->
+    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+        <h4 id="about"><b>About Me!</b></h4>
+        <p> Hello! Welcome to my website! 
+            My name is Hanouf Aloufi, I live in Makkah in Saudi Arabia 
+            I'm a computer science student in Umm Al-qura university 
+            I finished the barch degree in 2020 
+            and now continue my study in the master degree
+             I love website developing, Security and social analytic 
+            topics in Computer Science 
+            My favorite hobby is playing video games, fixing broken stuff
+             and watching cooking channel</p>
+        <hr>
+        <h4><b>Educational Background</b></h4>
+        <p> I graduated from Umm Al-Qura university in 2020 from the computer 
+            science department taking the barch degree and having an Excellent 
+            second honor grade with a GPA 3.7 out of 4.00.  Now I'm studying for the master
+            degree and this is my first year and second semester
+        </p>
+        <hr>
+        <h4><b>Experience</b></h4>
+        <p> I took a course in game developing using Unity enginge that is used for developing small games for
+            indie games developers and also in cybersecurity. 
+        </p>
+        <hr>
+        
+        
+    <h4><b>Technical Skills</b></h4>
+    <!-- Progress bars / Skills -->
+    <p>Database Managment</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:90%">90%</div>
+    </div>
+    <p>English Language</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:90%">90%</div>
+    </div>
+    <p>Programming</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>Game Developing</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:65%">65%</div>
+    </div>
+    <hr>
+  
+  <!-- Second Photo Grid-->
+  <h4 id="project"><b>My Projects</b></h4>
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="WEB/D.jpg" alt="DW" width="268" height="325" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Dyslexia Warriors</b></p>
+        <p>This was by me and my team graduation project, it was a game that help the dyslexic 
+            children in finding the best way for them to learn what is the best method for 
+            them when studying through a game designed by Unity.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="WEB/FR.jpg" alt="FR" width="268" height="325" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b> Face recognition system </b></p>
+        <p>Last semester I made a research paper to recognize students wearing niqab in
+            Umm Al-Qura university to check every student automatically.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="WEB/MG.jpg" alt="Game" width="268" height="325" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Memory Game</b></p>
+        <p>I made a simple memory game with my group for a course project that is written in Java language</p>
+      </div>
+    </div>
+  </div>
+
+    
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me!</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Ms.hanoo12@hotmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Makkah, KSA</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+966 566138727</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form id="form">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button id="butto" type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+  </div>
+</form>
+  <script>
+      $("#menu2").click(function(){
+          $("#nav").toggle() & $("#nav1").toggle() & $("#nav2").toggle();
+      })
+
+  </script>
+
+  <div class="w3-black w3-center w3-padding-24"> </div>
+
+<!-- End page content -->
+</div>
+
+
+</body>
+</html>
+
