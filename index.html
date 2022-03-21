@@ -6,7 +6,8 @@
     <meta charset = "utf-8" />
     <!-- View change depends on the device -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8J84VQ5E6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -52,7 +53,6 @@
         chart.draw(data, options);
       }
     </script>
-
   </head> 
 
 <body>
@@ -61,6 +61,8 @@
   <link rel = "stylesheet"  type = "text/css" href = "css/Header.css" ></link>
   <link rel = "stylesheet"  type = "text/css" href = "css/Fonts.css" ></link>
   <link rel = "stylesheet"  type = "text/css" href = "css/List.css" ></link>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 
   <!--LINK-->
  <!-- | Header | --> 
@@ -148,16 +150,21 @@
     };
 </script>
 
-<!-- Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
-<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
-<script type="text/javascript">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"Hanouf Website","open_preferences_center_selector":"#open_preferences_center"});
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#ffecec"
+    },
+    "button": {
+      "background": "#b97474"
+    }
+  },
+  "theme": "edgeless",
+  "position": "bottom-right"
 });
 </script>
-
-<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.TermsFeed.com/" rel="nofollow">TermsFeed Generator</a></noscript>
-<!-- End Cookie Consent by TermsFeed (https://www.TermsFeed.com) -->
 
 <!-- | End of Content | --> 
 
