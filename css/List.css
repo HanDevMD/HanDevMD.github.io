@@ -1,4 +1,5 @@
 ul {
+  display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@ ul {
   border: 1px solid #e7e7e7;
   background-color: #f3f3f3;
   position: fixed;
-  z-index: 1
+  z-index: 1;
 }
 
 li {
