@@ -1,6 +1,6 @@
 ul {
-  display: inline-block;
   list-style-type: none;
+  text-align:center;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -12,10 +12,11 @@ ul {
 
 li {
   float: left;
+display:inline;
 }
 
 li a {
-  display: block;
+  display:inline-block;
   color: #666;
   text-align: center;
   padding: 14px 16px;
