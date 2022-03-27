@@ -6,12 +6,13 @@
     <meta charset = "utf-8" />
     <!-- View change depends on the device -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!--LINK-->
   <link rel = "stylesheet"  type = "text/css" href = "css/Header.css" ></link>
   <link rel = "stylesheet"  type = "text/css" href = "css/Fonts.css" ></link>
   <link rel = "stylesheet"  type = "text/css" href = "css/List.css" ></link>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link rel = "stylesheet"  type = "text/css" href = "css/Cookie.css" ></link>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8J84VQ5E6"></script>
 
@@ -147,21 +148,20 @@ new Chart("myChart", {
 </script>
 
 <!-- | Cookies | --> 
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#ffecec"
-    },
-    "button": {
-      "background": "#b97474"
-    }
-  },
-  "theme": "edgeless",
-  "position": "bottom-right"
-});
-</script>
+
+<div class="cookie-container">
+  <p>
+    Notice. My website! uses cookies to provide necessary
+    website functionality, by using my website, you agree to my cookies usage.
+  </p>
+
+  <button class="cookie-btn">
+    Agree!
+  </button>
+</div>
+
+<script src="js/Cookiejs.js"></script>
+
 
 <!-- | End of Content | --> 
 
