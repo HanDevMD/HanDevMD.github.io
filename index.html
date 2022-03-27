@@ -7,20 +7,26 @@
     <!-- View change depends on the device -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  </head> 
-
-<body>
-  
-  <!--LINK-->
+    <!--LINK-->
   <link rel = "stylesheet"  type = "text/css" href = "css/Header.css" ></link>
   <link rel = "stylesheet"  type = "text/css" href = "css/Fonts.css" ></link>
   <link rel = "stylesheet"  type = "text/css" href = "css/List.css" ></link>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8J84VQ5E6"></script>
 
+    <!-- Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <!--LINK-->
- <!-- | Header | --> 
+  gtag('config', 'G-F8J84VQ5E6');
+</script>
+</head>
+
+<body>
+ <!--Navigation bar-->
   <body class="W">
     <ul align="center">
       <li><a href="#Home">Home</a></li>
@@ -30,7 +36,6 @@
     </ul> 
   <div id="Home" class="div1" style="background: url('WEB/Cover.jpg') repeat-x top;"><br /><br /><br /><br /><br /><br /><br /><br /><h3>Welcome!</h3><h4 style="width: 250px; background:#fff; text-align: left; padding: 0 0 0 20px;">Hanouf Aloufi &raquo Student in Umm Al-Qura </h4></div>
   
- <!-- | End Of Header | --> 
  
  <!-- | Content | -->
 
@@ -50,7 +55,8 @@
 </div>
 <center>
 
-  
+   <!--About me-->
+
 	 <h2 id="About">About me!</h2><h4>Hello! Welcome to my website! 
     My name is Hanouf Aloufi, ,<br /> I live in Makkah in Saudi Arabia 
     I'm a computer science student in Umm Al-qura university 
@@ -60,7 +66,9 @@
     topics in Computer Science 
     <br /> My favorite hobby is playing video games, fixing broken stuff
      and watching cooking channel </h4>
-  
+
+  <!--educational background-->
+
 	<h4 align="center"> <img src="WEB/1.jpg" style="margin-right: 50px;"width="300" height="400" >  </h4>
 	 <h2>Educational Background</h2><h4>
     I graduated from Umm Al-Qura university in 2020 from the computer 
@@ -72,9 +80,9 @@
      indie games developers and also in <br /> cybersecurity.<br /><img src="WEB/F.jpg" style="margin-top: 30px;" width="300" height="200">
 
 </center>
-<h2  align="center"> <br/>My Skills!
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<!--Chart for skills-->
+<h2  align="center"> <br/>My Skills!
    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script>
@@ -101,6 +109,8 @@ new Chart("myChart", {
 });
 </script>
 
+<!--Projects-->
+
 <div id="chart_div" align="center"></div>
 <img src="WEB/2.jpg"  width="350" height="150" style="margin-top: 50px; margin-top: 50px;"> </h2>
  <h2 align="center" id="project" > <br/>My Projects!
@@ -115,8 +125,7 @@ new Chart("myChart", {
   Umm Al-Qura university <br /> to check every student automatically.<br /> 
  . <br /><br /></td>
 
- <!--Div that will hold the pie chart-->
- 
+ <!--Contact-->
  <img src="WEB/break.png" id="Contact"> </h4>
  <h2 align="center" > <br/>Contact Me! <br/><br/>
  <form id="form">
@@ -127,6 +136,7 @@ new Chart("myChart", {
   <input  type="submit" value="Submit" onclick="ValidateTextBox()">
 </form>  </h2>
 
+<!-- | validate name and message is all written | --> 
 <script>
   function ValidateTextBox() {
         if (document.getElementById("fname").value.trim() != "" && document.getElementById("messagea").value.trim() != "") {
@@ -136,6 +146,7 @@ new Chart("myChart", {
     };
 </script>
 
+<!-- | Cookies | --> 
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
 window.cookieconsent.initialise({
@@ -154,19 +165,14 @@ window.cookieconsent.initialise({
 
 <!-- | End of Content | --> 
 
+<!-- | Footer | --> 
+
   <div class="div3">
    <a href="https://www.facebook.com/olilio.hanoo.olilio/"><img src="WEB/Facebook.png" style="text-align:left; margin-top: 10px; margin-left: 10px;"></a>
    <a href="https://www.instagram.com/handev_v/"><img src="WEB/Tumblr.png"></a>
    <a href="https://twitter.com/HanMDV"><img src="WEB/Twitter.png"></a>
     <h4 style="text-align:center;">&copy 2022 Hanouf website ALL RIGHTS RESERVED</td></h4>
- 
   </div>
-  
-  <!--SCRIPT-->
- 
-
-</script>>
-  <!--SCRIPT-->
   
   </body>
 </html>
